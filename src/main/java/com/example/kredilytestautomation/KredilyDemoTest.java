@@ -29,10 +29,10 @@ public class KredilyDemoTest {
             ew.click();
 
             WebElement emailField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("signInFormEmailAddress")));
-            emailField.sendKeys("2100032200cseh@gmail.com");
+            emailField.sendKeys("**************@gmail.com");
 
             WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("signInFormPassword")));
-            passwordField.sendKeys("Kedhar@03");
+            passwordField.sendKeys("************");
 
             WebElement signin = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("signinSubmitBtn")));
             signin.click();
